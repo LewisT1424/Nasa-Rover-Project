@@ -41,7 +41,7 @@ A Python async client for fetching mission manifest data from NASA's Mars Rover 
 Run the script to fetch manifest data for all rovers:
 
 ```bash
-python fetch_manifest_data.py
+python manifest-scripts/fetch_manifest_data.py
 ```
 
 This will:
@@ -63,7 +63,9 @@ Data successfully saved to output_files/manifest_data.json
 
 ```
 mars-rover-api-client/
-├── fetch_manifest_data.py # Main application script
+├── manifest-scripts
+│   └── fetch_manifest_data.py # Main application script
+│   └── manifest_analysis.ipynb.py # Notebook to analyse results from fetching manifest
 ├── utils.py               # Type definitions
 ├── requirements.txt       # Python dependencies
 ├── .env                   # Environment variables (create this)
@@ -76,6 +78,7 @@ mars-rover-api-client/
 
 - **aiohttp** - Async HTTP client for API requests
 - **python-dotenv** - Environment variable management
+- **polars** - Data manipulation and analysis inside notebooks
 
 See `requirements.txt` for specific versions.
 
