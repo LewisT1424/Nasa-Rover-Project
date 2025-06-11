@@ -32,7 +32,7 @@ class RoverAPI:
     #
 
     # Get manifest parameters
-    def get_manifest_params(self, rover):
+    def get_manifest_params(self, rover: str) -> ManifestParams:
         base_url = f"https://api.nasa.gov/mars-photos/api/v1/manifests/{rover}"
         params = {'api_key': self.api_key}
         return base_url, params
