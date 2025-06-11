@@ -64,14 +64,14 @@ Data successfully saved to output_files/manifest_data.json
 ```
 mars-rover-api-client/
 ├── manifest-scripts
-│   └── fetch_manifest_data.py # Main application script
-│   └── manifest_analysis.ipynb.py # Notebook to analyse results from fetching manifest
-├── utils.py               # Type definitions
-├── requirements.txt       # Python dependencies
-├── .env                   # Environment variables (create this)
-├── output_files/          # Generated JSON files (created automatically)
+│   └── fetch_manifest_data.py          # Main application script
+│   └── manifest_analysis.ipynb.py      # Notebook to analyse results from fetching manifest
+├── utils.py                            # Type definitions
+├── requirements.txt                    # Python dependencies
+├── .env                                # Environment variables (create this)
+├── output_files/                       # Generated JSON files (created automatically)
 │   └── manifest_data.json
-└── README.md             # This file
+└── README.md                           # This file
 ```
 
 ## Dependencies
