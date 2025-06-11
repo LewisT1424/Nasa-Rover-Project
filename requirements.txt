@@ -1,2 +1,5 @@
+# Asynchronous Library
 aiohttp>=3.9.0,<4.0.0
+
+# Environment Variables
 python-dotenv>=1.0.0,<2.0.0

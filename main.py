@@ -1,10 +1,14 @@
-from dotenv import load_dotenv
-import os
-import aiohttp
+# Async libraries
+import aiohttp # type: ignore
 import asyncio
-from typing import Dict, Optional, Required
-import polars as pl
-from utils import SolParams, ManifestParams
+
+# Environment variables and data types
+from dotenv import load_dotenv # type: ignore
+from typing import Dict, Optional
+
+# Utility libraries
+import os
+from utils import ManifestParams
 import time
 import json
 
