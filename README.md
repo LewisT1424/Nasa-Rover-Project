@@ -1,4 +1,4 @@
-# NASA Mars Rover API Client
+# NASA Mars Rover Autonmous System 
 
 A Python async client for fetching mission manifest data from NASA's Mars Rover Photos API. This tool retrieves detailed information about the Curiosity, Opportunity, and Spirit rovers including their mission status, landing dates, photo counts, and available cameras.
 
@@ -17,7 +17,7 @@ A Python async client for fetching mission manifest data from NASA's Mars Rover 
 1. **Clone the repository**
    ```bash
    git clone git@github.com:LewisT1424/Nasa-Rover-Project.git
-   cd mars-rover-api-client
+   cd Nasa-Rover-Project
    ```
 
 2. **Install dependencies**
